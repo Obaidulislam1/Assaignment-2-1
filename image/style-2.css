@@ -34,14 +34,9 @@ body{
     font-size: 1.0rem;
     font-weight: bolder;
 }
-/* --------- footer end ---------- */
+/*--------- footer end ----------*/
 
-/* ------------ main start------- */
-
-.player-topic{
-    display: flex;
-    margin-left: 3%;
-}
+/*------------ main start------- */
 .match-area{
     display: flex;
     justify-content: center;
@@ -87,6 +82,20 @@ body{
 .player-info button{
     display: block;
 }
+.country-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.match-time{
+    color: black;
+}
+.country-img .img-2{
+    padding: 0 10px;
+}
+.football-time{
+    text-align: center;
+}
 .clock img{
     margin: 0;
     padding: 0;
@@ -94,12 +103,9 @@ body{
 .clock-time{
     margin-right: 20px;
 }
-.view-all{
-    display: none;
-}
-/* ---------- main end ----------- */
+/*---------- main end -----------*/
 
-/* ------------ footer start ----------- */
+/*------------ footer start -----------*/
 footer{
     background-color: black;
 }
@@ -118,20 +124,3 @@ footer h2{
     padding: 15px;
     color: white;
 }
-.social-icon{
-    display: flex;
-    justify-content: center;
-}
-.fa-brands{
-    margin: 20px;
-    font-size: 2rem;
-}
-.fa-facebook{
-    color: #4267B2;
-}
-.fa-instagram{
-  color: #405DE6;
-}
-.fa-telegram{
-  color: #229ED9;
-} 

@@ -1,0 +1,100 @@
+@media screen and (min-width: 601px) and (max-width: 950px){
+    .footer-container{
+        display: flex;
+        justify-content: center;
+    }
+    .top-info{
+        width: 50%;
+    }
+    .top-img{
+        width: 50%;
+    }
+    .top-img img{
+        width: 400px;
+        height: 320px;
+    }
+    .full-banner{
+        display: flex;
+        background-color: black;
+        width: 700px;
+        border-radius: 15px;
+        padding: 100px;
+    }
+    .top-banner, h1, p{
+        color: white;
+    }
+    .live{
+        color: white;
+        background-color: red;
+        padding: 7px 10px;
+        border-radius: 5px;
+        font-size: 1.0rem;
+        font-weight: bolder;
+    }
+    .match-time{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 20px 10px;
+    }
+    .match-time .match-button{
+        margin: 0 60px;
+        padding: 10px 20px;
+        width: 160px;
+        border-radius: 5px;
+        
+    }
+    .match-button a{
+        text-decoration: none;
+    }
+    .match-blog{
+        background-color: brown;
+    }
+    .player{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player-info{
+        width: 330px;
+        background-color: aliceblue;
+        margin: 30px;
+        border-radius: 10px;
+    }
+    .hidden{
+        display: none;
+    }
+    .view-all{
+        width: 100px;
+        margin-left: 88%;
+        border-radius: 5px;
+        padding: 10px 5px;
+        color: aliceblue;
+        background-color: brown;
+    }
+    footer h2{
+        padding-top: 20px;
+        color: aliceblue;
+        text-align: center;
+        top: 30px;
+    }
+    footer{
+        background-color: black;
+    }
+    .social-icon{
+        display: flex;
+        justify-content: center;
+    }
+    .fa-brands{
+        margin: 20px;
+        font-size: 2rem;
+    }
+    .fa-facebook{
+        color: #4267B2;
+    }
+    .fa-instagram{
+      color: #405DE6;
+    }
+    .fa-telegram{
+      color: #229ED9;
+    }
+}
