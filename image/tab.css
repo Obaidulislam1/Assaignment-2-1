@@ -3,6 +3,9 @@
         display: flex;
         justify-content: center;
     }
+    body{
+     width: 600px;        
+    }
     .top-info{
         width: 50%;
     }
@@ -10,8 +13,8 @@
         width: 50%;
     }
     .top-img img{
-        width: 400px;
-        height: 320px;
+        width: 350px;
+        height: 300px;
     }
     .full-banner{
         display: flex;
@@ -19,6 +22,7 @@
         width: 700px;
         border-radius: 15px;
         padding: 100px;
+        margin-left: 200px;
     }
     .top-banner, h1, p{
         color: white;
@@ -31,18 +35,45 @@
         font-size: 1.0rem;
         font-weight: bolder;
     }
+    main{
+        width: 600px;
+    }
     .match-time{
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin: 20px 10px;
     }
+    .match-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 200px;
+        height: 190px;
+        border-radius: 10px;
+    }
+    .football-math{
+        display: flex;
+        justify-content: center;
+     }
     .match-time .match-button{
         margin: 0 60px;
         padding: 10px 20px;
         width: 160px;
         border-radius: 5px;
         
+    }
+    .match-button{
+        padding: 20px auto;
+        margin: 15px;
+        width: 150px;
+        height: 30px;
+        display: block;
+        margin: 10px 10px;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: bolder;
     }
     .match-button a{
         text-decoration: none;
